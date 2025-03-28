@@ -102,7 +102,6 @@ input::value {
 
 /* aside 영역 */
 .quiz {
-    margin-top : 0px;
     text-align: center;
     color: #97afe3;
     font-weight: 700;
@@ -110,4 +109,5 @@ input::value {
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-underline-position: from-font;
+    cursor: pointer;
 }
