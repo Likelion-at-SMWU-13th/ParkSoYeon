@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "mypage.css" />
+    <title>🦁 마이페이지</title>
+</head>
+<body>
+    <header>
+        <img id = "logo" src = "./images/숙멋사로고명 1.svg">
+        <a href="login.html"><img id = "home" src = "./images/home.svg"></a>
+    </header>
+    <div class = "main-box">
+        <img id = "profile_img" src = "./images/profile.svg">
+        <form name = "mypage" method = "post">
+            <section class = "mypage_section">
+                <span>닉네임</span>
+                <input name = "nickname" type = "text" value = "ss0yaa" readonly/>
+            </section>
+            <section class = "mypage_section">
+                <span>학교</span>
+                <input name = "school" type = "text" value = "숙명여자대학교" readonly/>
+            </section>
+            <section class = "mypage_section">
+                <span>학과</span>
+                <input name = "department" type = "text" value = "컴퓨터과학전공" readonly/>
+            </section>
+            <section class = "mypage_section">
+                <span>소속</span>
+                <input name = "group" type = "text" value = "멋쟁이사자처럼 13기" readonly/>
+            </section>
+        </form>
+        <aside class = "quiz">
+            <p id = "quiz"> 박소연님의 정보가 더 궁금하신가요 ?</p>    
+        </aside>
+    </div>
+    <script src = "mypage.js"></script>
+</body>
+</html>
