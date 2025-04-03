@@ -1,0 +1,113 @@
+/* 기본 스타일 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: 'YiSunShinDotumM';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YiSunShinDotumM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #1c1c1c;
+    font-family: "YiSunShinDotumM";
+}
+  
+input {
+    font-family: inherit;
+}
+ 
+
+/* 1. 박스 */
+.main-box {
+    position : relative;
+    width: 550px;
+    height: 594px;
+    margin : 60px auto 0;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+}
+
+/* 2. 헤더 */
+header {
+    display: flex;
+    justify-content: space-between; /* 로고 왼쪽, 홈 아이콘 오른쪽 배치 */
+    align-items: center;
+    margin : 20px 20px 0;
+    padding: 20px;
+  }
+
+
+/* 3. 프로필 이미지 */
+#profile_img {
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    top: -70px; /* 사진이 박스 위에서 70px 만큼 튀어나오게 */
+}
+  
+
+/* 4. 폼*/
+form {
+    margin: 100px auto;
+    display: flex;
+    width: 413px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.mypage_section {
+    margin: 0 auto 15px; 
+    width: 100%;
+}
+  
+.mypage_section span {
+    color: #fff;
+    font-family: "YiSunShin Dotum M";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+.mypage_section input {
+    width: 413px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #97afe3;
+    color: #ccd2e0;
+    font-family: "YiSunShin Dotum M";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #1c1c1c;
+    margin-top: 5px;
+}
+
+input{
+    padding-left: 8px;   
+}
+
+input::value {
+    color: #ccd2e0;
+}
+
+/* aside 영역 */
+.quiz {
+    text-align: center;
+    color: #97afe3;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    cursor: pointer;
+}
