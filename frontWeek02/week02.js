@@ -38,6 +38,8 @@ function addTodo(event) {
     // 삭제 버튼 클릭 시
     if (target.classList.contains("delete-btn")) {
       target.parentElement.remove();
+    } else if (target.tagName === "SPAN") {
+      target.parentElement.classList.toggle("completed"); //부모 요소의 클래스에 completed
     }
   }
 
