@@ -23,7 +23,7 @@ function clickLike(event){
 }
 
 function clickMore(event){
-    if(moreText.style.display === "none" || moreText.style.display === ""){
+    if(moreText.style.display === "none"){
         moreText.style.display = "inline";
         more.textContent = "접기";
     }
