@@ -1,31 +1,25 @@
 // DOM 요소 선택
-const likePicture = document.getElementById("heart");
+const heart = document.getElementById("heart");
 const count = document.getElementById("likeCount");
 const more = document.getElementById("more");
 const moreText = document.getElementById("moreText");
 
-// 추가 기능
-const share = document.getElementById("share");
-
-let like = false;
 
 function clickLike(event){
     
-    if(!like){
-        like = true;
-        likePicture.src = "./images/fullHeart.svg"
-        let currentNum = parseInt(count.textContent, 10);
-        let clickNum = currentNum+1;
-        count.textContent = clickNum;
-    }
-    else{
-        like=false;
-        likePicture.src = "./images/heart.svg"
-        let currentNum = parseInt(count.textContent, 10);
-        let clickNum = currentNum-1;
-        count.textContent = clickNum;
-    }
+    heart.classList.toggle('liked'); // 하트에 liked 클래스가 없으면 추가되고, 있으면 제거됨.
 
+    // 좋아요 개수를 정수로 변환
+    let count = parseInt(likeCount.textContent, 10);
+    
+    // liked가 붙어 있다면, 좋아요 수 +1
+    if (heart.classList.contains('liked')) {
+        likeCount.textContent = count + 1;
+    } 
+    // liked 클래스가 제거 되었다면, 좋아요 수 -1
+    else {
+        likeCount.textContent = count - 1;
+  }
 }
 
 function clickMore(event){
@@ -41,7 +35,7 @@ function clickMore(event){
 }
 
 
-likePicture.addEventListener("click", clickLike);
+heart.addEventListener("click", clickLike);
 more.addEventListener("click", clickMore);
 
 

@@ -71,13 +71,19 @@ body {
   border-bottom: 0px;
 }
 
+/*하트 비활성화 상태*/
 #heart{
   width: 35px;
   margin-top: 5px;
   margin-left:10px;
   margin-right: 3px;
   cursor: pointer;
-  filter: grayscale(1);
+
+}
+
+/*하트 활성화 상태*/
+#heart.liked{
+  background-image: url('./images/fullHeart.svg');
 }
 
 #comment{
