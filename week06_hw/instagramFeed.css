@@ -69,7 +69,6 @@ body {
   border-radius: 0px;
   border-top: 0px;
   border-bottom: 0px;
-  cursor: pointer;
 }
 
 #heart{
@@ -77,22 +76,27 @@ body {
   margin-top: 5px;
   margin-left:10px;
   margin-right: 3px;
+  cursor: pointer;
+  filter: grayscale(1);
 }
 
 #comment{
   width: 35px;
   margin-top: 5px;
   margin-right: 3px;
+  cursor: pointer;
 }
 
 #share{
   width: 35px;
   margin-top: 5px;
   margin-right: 288px;
+  cursor: pointer;
 }
 
 #collection{
   width: 36px;
+  cursor: pointer;
 }
 
 /* 캡션 영역*/
@@ -118,6 +122,9 @@ body {
 
 #name, #fullText{
   display: inline; /* 아이디와 본문이 엔터 없이 출력*/
+}
+
+#fullText{
   margin-left: 5px;
 }
 
