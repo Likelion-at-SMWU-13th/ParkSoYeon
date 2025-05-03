@@ -10,32 +10,36 @@
     <div class="profileInfo">
       <!-- 프로필 사진, 아이디, 위치-->
       <img src="./images/profileImage.svg" id="profileImage" />
-      <p id="profileId">ss0_yaa_</p>
-      <p id="profilePlace">숙명여자대학교 명신관</p>
+      <div id="profileText"> 
+        <p id="profileId">ss0_yaa_</p>
+        <p id="profilePlace">스타벅스 숙명여대정문점</p>
+      </div>
     </div>
     <div class="content">
       <!-- 사진, 좋아요, 댓글 등 버튼 -->
       <img src="./images/cake.svg" id="cake" />
-      <div class="icons">
-        <!-- 좋아요 버튼 클릭 효과 -->
-        <img src="./images/heart.svg" id="heart" />
-        <img src="./images/comment.svg" id="comment" />
-        <img src="./images/share.svg" id="share" />
-        <img src="./images/collection.svg" id="collection" />
-      </div>
     </div>
+    <div class="icons">
+      <!-- 좋아요 버튼 클릭 효과 -->
+      <img src="./images/heart.svg" id="heart" />
+      <img src="./images/comment.svg" id="comment" />
+      <img src="./images/share.svg" id="share" />
+      <img src="./images/collection.svg" id="collection" />
+      </div>
+
 
     <div class="caption">
       <!-- 좋아요 버튼 누르명 카운트 +1-->
-      <strong>좋아요 <span id="likeCount">10</span>개</strong>
-      <strong>ss0_yaa_</strong>
-      <p>
-        아이디어톤 회의 중··· 케이크 너무 맛있어요🦁❤️‍🔥
+      <p id="like">좋아요 <span id="likeCount">10</span>개</p>
+      <p id="name">ss0_yaa_</p>
+      <p id="fullText">
+        아이디어톤 회의 중···
         <!-- 더보기 버튼 구현 -->
-        <span id="moreText">우리 모두 아자아자 화이팅~!!! </span>
+        <span id="moreText"> 케이크 너무 잘 먹었어요🦁❤️‍🔥 우리 모두 아자아자 화이팅~!!! </span>
         <span id="more">...더보기</span>
       </p>
     </div>
     <!-- 피드 글 내용-->
+    <script src="instagramFeed.js"></script>
   </body>
 </html>
