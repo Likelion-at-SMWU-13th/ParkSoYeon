@@ -1,0 +1,147 @@
+/* 기본 세팅*/
+* {
+  /* margin과 padding을 0으로*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 전체 페이지 중앙 정렬*/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+/*프로필 정보 영역(프로필 이미지, 아이디, 위치)*/
+.profileInfo {
+  display: flex;
+  align-items: center;
+  width: 470px;
+  padding: 10px;
+  border: 2px solid #d5d5d5;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 0px;
+}
+
+#profileImage {
+  width: 50px;
+  height: 50px;
+  margin: 0px 5px;
+}
+
+#profileText{
+  /* 부모 요소에 display: flex;를 설정했더니 
+  p 태그가 엔터키 없이 한 줄로 출력되어 아이디와 장소를 클래스로 묶어 설정해줌 */
+  display:flex;
+  flex-direction: column; 
+}
+
+#profileId {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#profilePlace {
+  margin-top: 1px;
+  margin-left: 10px;
+  color: #BDBDBD;
+  font-size: 14px;
+}
+
+/*게시글 사진 */
+.content{
+  border: 2px solid #d5d5d5;
+  border-top:0px;
+  border-bottom: 0px;
+}
+
+#cake{
+  width:466px;
+}
+
+/*아이콘 영역*/
+.icons{
+  width: 470px;
+  padding: 0px;
+  border: 2px solid #d5d5d5;
+  border-radius: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+/*하트 비활성화 상태*/
+#heart{
+  width: 35px;
+  margin-top: 5px;
+  margin-left:10px;
+  margin-right: 3px;
+  cursor: pointer;
+
+}
+
+/*하트 활성화 상태*/
+#heart.liked{
+  background-image: url('./images/fullHeart.svg');
+}
+
+#comment{
+  width: 35px;
+  margin-top: 5px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+#share{
+  width: 35px;
+  margin-top: 5px;
+  margin-right: 288px;
+  cursor: pointer;
+}
+
+#collection{
+  width: 36px;
+  cursor: pointer;
+}
+
+/* 캡션 영역*/
+.caption{
+  width: 470px;
+  padding: 0 10px 10px 10px;
+  border: 2px solid #d5d5d5;
+  border-radius: 0px 0px 10px 10px;
+  border-top: 0px;
+
+}
+
+#like{
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+#like, #name{
+  margin-left: 10px;
+  font-weight:bold;
+  margin-left: 5px;
+}
+
+#name, #fullText{
+  display: inline; /* 아이디와 본문이 엔터 없이 출력*/
+}
+
+#fullText{
+  margin-left: 5px;
+}
+
+#moreText{
+  /*더보기 누르기 전까지는 안 보이게 처리*/
+  display: none; 
+}
+
+#more{
+  color: #BDBDBD;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
