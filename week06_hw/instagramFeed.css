@@ -82,6 +82,7 @@ body {
 }
 
 /*하트 활성화 상태*/
+/*liked 클래스가 붙으면, */
 #heart.liked{
   background-image: url('./images/fullHeart.svg');
 }
