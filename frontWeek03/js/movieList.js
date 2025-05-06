@@ -8,6 +8,7 @@ const movies = [
 ];
 
 const actionMovie = movies.filter((movie => {
+    // 중괄호로 쓰여 있으면, 함수로 간주되므로 return이 반드시 있어야 함
     return movie.genre.includes("액");
 }))
 
