@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(234, 234, 234);
+}
+
+input[name="singer"] {
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px 10px;
+  }
+  
+button[name="search"] {
+    background-color: rgb(255, 136, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 7px 10px;
+    cursor: pointer;
+  }
+
+.searchDate{
+    display:flex;
+}
+
+#date {
+    font-size: 20px;
+    color: #666;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-left: auto; /* 오른쪽 끝 정렬*/
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+#musicContainer {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+  }
+
+#info1{
+    margin-top: 5px;
+}
+
+#info1, #info2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 간격 맞게 2열로 정렬해주기 위함*/
+
+}
+  
+.info {
+    display: flex; /* 가로 방향으로 정렬*/
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.label {
+    width: 60px; /* 라벨 길이 고정 */
+    font-weight:500;
+    color: #888;
+}
+
+.value {
+    flex: 1; /* .value가 고정길이의 label 외의 나머지 공간을 자동으로 채움*/
+    text-align: left;
+}
