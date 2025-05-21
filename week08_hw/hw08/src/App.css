@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Pretendard-Semibold"; /* 사용할 폰트의 이름 정의 */
+  src: url("./fonts/Pretendard-Medium.otf"); /* 폰트 파일의 위치 */
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
