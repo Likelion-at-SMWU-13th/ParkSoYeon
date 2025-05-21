@@ -1,5 +1,5 @@
 import React from "react";
-import content1 from "../assets/resident.png";
+import content3 from "../assets/geumju.png";
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -14,7 +14,6 @@ const Card = styled.div`
 const Img = styled.img`
   width: 15rem;
   border-radius: 0.3125rem;
-
   }
 `;
 
@@ -31,8 +30,8 @@ const No = styled.h1`
 const ContentCard1 = () => {
   return (
     <Card>
-      <No>1</No>
-      <Img src={content1} />
+      <No>3</No>
+      <Img src={content3} />
     </Card>
   );
 };

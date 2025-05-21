@@ -1,5 +1,5 @@
 import React from "react";
-import content1 from "../assets/resident.png";
+import content4 from "../assets/unni.png";
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -12,18 +12,18 @@ const Card = styled.div`
 `;
 
 const Img = styled.img`
-  width: 15rem;
-  border-radius: 0.3125rem;
+  width: 240px;
+  border-radius: 5px;
 
   }
 `;
 
 const No = styled.h1`
   align-self: flex-end;
-  padding-left: 0.3125rem;
-  padding-right: 1.0625rem;
+  padding-left: 5px;
+  padding-right: 17px;
   margin: 0;
-  font-size: 4.6875rem;
+  font-size: 75px;
   font-style: Italic;
   font-family: "Jalnan";
 `;
@@ -31,8 +31,8 @@ const No = styled.h1`
 const ContentCard1 = () => {
   return (
     <Card>
-      <No>1</No>
-      <Img src={content1} />
+      <No>4</No>
+      <Img src={content4} />
     </Card>
   );
 };

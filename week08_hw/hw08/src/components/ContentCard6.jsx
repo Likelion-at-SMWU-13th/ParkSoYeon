@@ -1,5 +1,5 @@
 import React from "react";
-import content1 from "../assets/resident.png";
+import content6 from "../assets/refrigerator.png";
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -31,8 +31,8 @@ const No = styled.h1`
 const ContentCard1 = () => {
   return (
     <Card>
-      <No>1</No>
-      <Img src={content1} />
+      <No>6</No>
+      <Img src={content6} />
     </Card>
   );
 };
