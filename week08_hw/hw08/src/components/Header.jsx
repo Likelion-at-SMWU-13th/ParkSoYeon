@@ -14,7 +14,7 @@ const Container = styled.div`
 `;
 
 const Logo = styled.img`
-  padding: 1.25rem;
+  padding: 1.4rem;
 `;
 
 const Nav = styled.nav`
@@ -54,7 +54,7 @@ const Profile = styled.img`
   height: 2.5rem;
   align-self: center;
   padding-left: 2rem;
-  padding-right: 4rem;
+  padding-right: 3rem;
 `;
 
 const Header = () => {

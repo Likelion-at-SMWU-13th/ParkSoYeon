@@ -12,7 +12,7 @@ const Card = styled.div`
 `;
 
 const Img = styled.img`
-  width: 240px;
+  width: 14.7rem;
   border-radius: 5px;
 
   }
@@ -28,7 +28,7 @@ const No = styled.h1`
   font-family: "Jalnan";
 `;
 
-const ContentCard1 = () => {
+const ContentCard4 = () => {
   return (
     <Card>
       <No>4</No>
@@ -37,4 +37,4 @@ const ContentCard1 = () => {
   );
 };
 
-export default ContentCard1;
+export default ContentCard4;

@@ -8,12 +8,19 @@ import ContentCard5 from "./ContentCard5";
 import ContentCard6 from "./ContentCard6";
 
 const Container = styled.div`
-  height: 27rem;
-  margin-bottom: 5px;
+  height: 26.5rem;
+`;
+
+const Text = styled.p`
+  padding: 0.8rem 2.7rem;
+  margin: 0px;
+  font-size: 23px;
+  font-family: "Pretendard-Bold";
+  color: white;
 `;
 
 const Card = styled.div`
-  padding-left: 2.4rem;
+  padding-left: 2.6rem;
   padding-top: 0.3rem;
   display: flex;
   align-items: center;
@@ -21,13 +28,6 @@ const Card = styled.div`
   color: white;
 `;
 
-const Text = styled.p`
-  padding: 0.8rem 2.5rem;
-  margin: 0px;
-  font-size: 23px;
-  font-family: "Pretendard-Bold";
-  color: white;
-`;
 const Main = () => {
   return (
     <Container>

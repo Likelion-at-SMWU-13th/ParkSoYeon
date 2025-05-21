@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   position: relative;
-  width: 13.125rem;
+  width: 13.8rem;
 `;
 
 const Card = styled.div`
@@ -40,7 +40,7 @@ const Title = styled.p`
   align-items: center;
   align-self: center;
   width: 100%;
-  height: 3rem;
+  height: 3.3rem;
   background-color: rgb(31, 31, 31);
   color: rgb(147, 147, 147);
   font-family: "Pretendard-Semibold";

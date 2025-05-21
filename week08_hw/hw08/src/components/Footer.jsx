@@ -8,7 +8,7 @@ const Container = styled.div`
 `;
 
 const Text = styled.p`
-  padding: 0.7rem 2.5rem;
+  padding: 0.7rem 2.7rem;
   margin: 0px;
   font-size: 23px;
   font-family: "Pretendard-Bold";
@@ -16,7 +16,7 @@ const Text = styled.p`
 `;
 
 const Card = styled.div`
-  padding-left: 2.4rem;
+  padding-left: 2.6rem;
   padding-top: 0.3rem;
   display: flex;
   align-items: center;

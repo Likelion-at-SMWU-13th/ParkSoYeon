@@ -12,7 +12,7 @@ const Card = styled.div`
 `;
 
 const Img = styled.img`
-  width: 15rem;
+  width: 14.7rem;
   border-radius: 0.3125rem;
 
   }
