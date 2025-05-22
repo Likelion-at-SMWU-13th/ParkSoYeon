@@ -25,7 +25,7 @@ const Card = styled.div`
 `;
 
 const Footer = () => {
-  const name = "🦁숙멋사";
+  const name = "아기사자";
 
   return (
     <Container>

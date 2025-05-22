@@ -41,6 +41,7 @@ const Icons = styled.div`
   flex-direction: row;
   justify-content: flex-end;
   margin-left: auto;
+  cursor: pointer;
 `;
 
 const Search = styled.img`
