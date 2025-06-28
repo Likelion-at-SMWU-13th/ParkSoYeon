@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Pretendard-Semibold"; /* 사용할 폰트의 이름 정의 */
+  src: url("./fonts/Pretendard-Medium.otf"); /* 폰트 파일의 위치 */
+}
+
+@font-face {
+  font-family: "Pretendard-Bold"; /* 사용할 폰트의 이름 정의 */
+  src: url("./fonts/Pretendard-Bold.otf"); /* 폰트 파일의 위치 */
+}
+
+@font-face {
+  font-family: "Pretendard-ExtraBold"; /* 사용할 폰트의 이름 정의 */
+  src: url("./fonts/Pretendard-ExtraBold.otf"); /* 폰트 파일의 위치 */
+}
+
+@font-face {
+  font-family: "Samliphopangche"; /* 사용할 폰트의 이름 정의 */
+  src: url("./fonts/SDSamliphopangcheOutline.otf"); /* 폰트 파일의 위치 */
+}
+
+@font-face {
+  font-family: "Ownglyph"; /* 사용할 폰트의 이름 정의 */
+  src: url("./fonts/온글잎 콘콘체.ttf"); /* 폰트 파일의 위치 */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
