@@ -8,7 +8,7 @@ const RestaurantGrid = styled.div`
   border-color: Navy;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 0px 100px;
+  padding: 0px 6.25rem;
 `;
 
 const Card = styled.div`
@@ -20,29 +20,29 @@ const Card = styled.div`
   background-color: white;
   border-style: solid;
   border-color: rgb(201, 201, 201);
-  border-radius: 20px;
-  border-width: 2px;
-  margin: 20px;
-  padding: 20px 0px;
+  border-radius: 1.25rem;
+  border-width: 0.125rem;
+  margin: 1.25rem;
+  padding: 1.25rem 0rem;
 `;
 
 const Name = styled.h2`
-  margin: 10px 0px;
+  margin: 0.625rem 0px;
 `;
 
 const Img = styled.img`
   width: auto;
-  height: 300px;
-  margin: 10px 0px;
-  border-radius: 5px;
+  height: 18.75rem;
+  margin: 0.625rem 0px;
+  border-radius: 0.3125rem;
 `;
 
 const Text = styled.p`
-  margin: 5px;
+  margin: 0.3125rem;
 `;
 
 const Link = styled.a`
-  margin: 5px;
+  margin: 0.3125rem;
 `;
 
 const Restaurant = () => {

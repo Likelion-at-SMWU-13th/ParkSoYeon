@@ -5,7 +5,7 @@ const SearchContainer = styled.div`
   font-family: "Pretendard-Semibold";
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
 
   justify-content: center;
   align-items: center;
@@ -17,15 +17,15 @@ const Text = styled.p`
 `;
 
 const Form = styled.form`
-  margin-left: 10px;
+  margin-left: 0.625rem;
 `;
 
 const Select = styled.select`
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
-  width: 500px;
-  border-radius: 50px;
-  padding: 10px 5px;
+  width: 31.25rem;
+  border-radius: 3.125rem;
+  padding: 0.625rem 0.3125rem;
   cursor: pointer;
 `;
 

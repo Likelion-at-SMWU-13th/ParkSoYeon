@@ -5,22 +5,22 @@ import logo from "../assets/smwu.png";
 const FooterContainer = styled.div`
   display: flex;
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
   justify-content: center;
   align-items: end;
 `;
 
 const Img = styled.img`
-  width: 80px;
-  height: 85px;
-  margin: 18px 0px;
+  width: 5rem;
+  height: 5.3125rem;
+  margin: 1.125rem 0px;
 `;
 
 const Title = styled.h1`
   font-family: "Samliphopangche";
   color: Navy;
-  font-size: 50px;
-  padding-left: 10px;
+  font-size: 3.125rem;
+  padding-left: 0.625rem;
 `;
 
 const Footer = () => {
