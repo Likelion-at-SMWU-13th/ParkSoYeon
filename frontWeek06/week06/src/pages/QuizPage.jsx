@@ -1,4 +1,5 @@
-import { useQuiz } from "../hooks/useQuiz";
+import { Link } from "react-router-dom";
+import { useQuiz } from "../hooks/useQuiz"; // ① useRef import 하기
 
 const QuizApp = () => {
   const questions = [
@@ -27,7 +28,7 @@ const QuizApp = () => {
         <h2>문제 {currentQuestion + 1}</h2>
         <p>{questions[currentQuestion].question}</p>
         <input
-          ref={inputRef}
+          ref={inputRef} // ③ ref 속성에 연결하기
           type="text"
           value={userAnswer}
           onChange={(e) => setUserAnswer(e.target.value)}
@@ -35,9 +36,15 @@ const QuizApp = () => {
           className="answer-input"
         />
         <div className="button-group">
-          <button onClick={handleSubmit} className="submit-btn">
-            {currentQuestion < questions.length - 1 ? "다음 문제" : "완료"}
-          </button>
+          {currentQuestion < questions.length - 1 ? (
+            <button onClick={handleSubmit} className="submit-btn">
+              {currentQuestion < questions.length - 1 ? "다음 문제" : "완료"}
+            </button>
+          ) : (
+            <Link to="/result" className="link-btn">
+              결과 보기
+            </Link>
+          )}
           <button onClick={handleReset} className="reset-btn">
             초기화
           </button>
