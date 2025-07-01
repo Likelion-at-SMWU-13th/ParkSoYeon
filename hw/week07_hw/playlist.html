@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎶노래 리스트 페이지🎶</title>
+    <link rel="stylesheet" href="./playlist.css" />
+  </head>
+  <body>
+    <div class="searchDate">
+      <input
+        type="text"
+        id="singer"
+        name="singer"
+        placeholder="가수 이름 입력"
+      />
+      <button type="button" id="search" name="search">검색</button>
+      <div id="date"></div>
+    </div>
+
+    <!-- 노래 리스트가 띄워질 부분-->
+    <div id="musicContainer"></div>
+
+    <script src="./playlist.js"></script>
+  </body>
+</html>
