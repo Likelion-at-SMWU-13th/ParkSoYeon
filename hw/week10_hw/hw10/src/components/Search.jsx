@@ -50,8 +50,11 @@ const Button = styled.input`
   cursor: pointer;
 `;
 
-const Search = () => {
+const Search = ({ category, setCategory }) => {
   const inputRef = useRef();
+  const onChangeCategory = (e) => {
+    setCategory(e.target.value);
+  };
 
   useEffect(() => {
     inputRef.current.focus();
@@ -63,7 +66,7 @@ const Search = () => {
         {/* 카테고리 선택 */}
         <CategoryBox>
           <Form>
-            <Select id="category">
+            <Select id="category" value={category} onChange={onChangeCategory}>
               <Option value="한식">한식</Option>
               <Option value="중식">중식</Option>
               <Option value="양식">양식</Option>
