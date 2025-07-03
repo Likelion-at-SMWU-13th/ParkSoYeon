@@ -24,7 +24,7 @@ const Select = styled.select`
   height: 2rem;
   text-align: center;
   border-radius: 0.5rem;
-  font-size: 15px;
+  font-size: 0.9375rem;
 `;
 
 const Option = styled.option``;
@@ -35,12 +35,12 @@ const SearchBox = styled.div`
 `;
 
 const Input = styled.input`
-  width: 270px;
-  height: 40px;
+  width: 16.875rem;
+  height: 2.5rem;
   border-radius: 2rem;
   text-align: center;
-  margin: 5px;
-  font-size: 16px;
+  margin: 0.3125rem;
+  font-size: 1rem;
 `;
 
 const Search = ({ category, setCategory, search, setSearch }) => {

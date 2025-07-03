@@ -12,7 +12,7 @@ const HeaderContainer = styled.div`
 `;
 
 const Img = styled.img`
-  width: 64px;
+  width: 4rem;
   height: 4.5rem;
 `;
 

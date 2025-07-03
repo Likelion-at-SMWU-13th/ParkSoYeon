@@ -15,16 +15,16 @@ const Container = styled.div`
 `;
 
 const Name = styled.h2`
-  margin-top: 30px;
-  font-size: 25px;
+  margin-top: 1.875rem;
+  font-size: 1.5625rem;
 `;
 const Img = styled.img`
   width: 60%;
-  margin: 15px 0px;
-  border-radius: 50px;
+  margin: 0.9375rem 0rem;
+  border-radius: 3.125rem;
 `;
 const Text = styled.p`
-  margin: 5px;
+  margin: 0.3125rem;
 `;
 
 const Link = styled.a``;

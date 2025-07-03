@@ -13,7 +13,7 @@ const RestaurantGrid = styled.div`
 `;
 
 const Card = styled.div`
-  width: 300px;
+  width: 18.75rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,8 +24,8 @@ const Card = styled.div`
   border-color: rgb(201, 201, 201);
   border-radius: 1.25rem;
   border-width: 0.125rem;
-  padding: 20px;
-  margin: 10px 0px;
+  padding: 1.25rem;
+  margin: 0.625rem 0rem;
   text-align: center;
 `;
 
@@ -38,11 +38,11 @@ const Img = styled.img`
 `;
 
 const Text = styled.p`
-  margin: 5px;
+  margin: 0.3125rem;
 `;
 
 const NaverLink = styled.a`
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 `;
 
 const Restaurant = () => {
