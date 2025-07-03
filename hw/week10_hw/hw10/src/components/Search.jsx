@@ -35,7 +35,7 @@ const SearchBox = styled.div`
 `;
 
 const Input = styled.input`
-  width: 250px;
+  width: 270px;
   height: 40px;
   border-radius: 2rem;
   text-align: center;
@@ -43,14 +43,7 @@ const Input = styled.input`
   font-size: 16px;
 `;
 
-const Button = styled.input`
-  width: 50px;
-  height: 40px;
-  border-radius: 1rem;
-  cursor: pointer;
-`;
-
-const Search = ({ category, setCategory }) => {
+const Search = ({ category, setCategory, search, setSearch }) => {
   const inputRef = useRef();
   const onChangeCategory = (e) => {
     setCategory(e.target.value);
@@ -78,9 +71,12 @@ const Search = ({ category, setCategory }) => {
 
         {/* 검색창 */}
         <SearchBox>
-          <Input ref={inputRef} placeholder="검색할 가게명을 입력하세요." />
-          {/* 검색버튼 */}
-          <Button type="button" value="🔍"></Button>
+          <Input
+            ref={inputRef}
+            placeholder="검색할 가게명을 입력하세요."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
         </SearchBox>
       </SearchContainer>
     </>

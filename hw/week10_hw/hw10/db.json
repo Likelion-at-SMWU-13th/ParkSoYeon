@@ -4,6 +4,8 @@
       "id": 1,
       "name": "포돈",
       "picture": "https://mblogthumb-phinf.pstatic.net/MjAyNDExMjhfNzkg/MDAxNzMyNzcxOTA2NDA5.Eq20Qk8uMorhMN_fEumv9qwrIo7y1tHmjIin_cCK2AAg.3ipg-dXUeBcw2Y8wCWGQLP0S8H93t5ISVlhMsy6wd5kg.JPEG/IMG_4118.JPG?type=w800",
+      "description": "숙대 명물 쌀국수 웨이팅 맛집!",
+
       "location": "서울 용산구 청파로47길 77 2층",
       "category": "베트남 음식",
       "menu": "포돈 정식 / 소고기 쌀국수 / 히레가스",
@@ -13,6 +15,7 @@
       "id": 2,
       "name": "츄르츄르라멘",
       "picture": "https://d12zq4w4guyljn.cloudfront.net/750_750_20240315092214_photo2_95a320b717e1.webp",
+      "description": "라멘과 연어초밥 조합이 최고!",
       "location": "서울 용산구 청파로43길 11 1층",
       "category": "일식",
       "menu": "차슈멘 / 신차슈멘 / 연어스시",
@@ -21,6 +24,8 @@
     {
       "id": 3,
       "name": "까치네분식",
+      "description": "여러 가지 메뉴를 한 번에 즐기고 싶다면 여기로!",
+
       "picture": "https://d12zq4w4guyljn.cloudfront.net/750_750_20240704041243695_photo_ea94d1fec849.webp",
       "location": "서울 용산구 청파로45길 18",
       "category": "분식",
@@ -30,6 +35,8 @@
     {
       "id": 4,
       "name": "사이공마켓 숙대점",
+      "description": "지하에 위치한 분짜 맛집!",
+
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqfYiI-wCW5MUwKyrr1midYkRhc5Det4bQQ&s",
       "location": "서울 용산구 청파로47길 76 지하 1층",
       "category": "베트남 음식",
@@ -39,6 +46,8 @@
     {
       "id": 5,
       "name": "또와또",
+      "description": "즉석 떡볶이 먹은 뒤, 볶음밥은 필수!",
+
       "picture": "https://mblogthumb-phinf.pstatic.net/MjAxNjEyMDVfMTgz/MDAxNDgwOTA0ODQ2MTg2.rEDbojgllUYKo1J1pCDelQPl2BoTtHE8kBEHnjx1fyog.LBoQQrygDGTndh65RUgqbLVUd8mNbXK7iSvBc8lZ6KUg.JPEG.jangllllll/IMG_8076.JPG?type=w800",
       "location": "서울 용산구 청파로47길 59",
       "category": "분식",
@@ -48,6 +57,8 @@
     {
       "id": 6,
       "name": "와우신내떡",
+      "description": "떡볶이와 감자튀김의 조합이 최고!",
+
       "picture": "https://blog.kakaocdn.net/dn/Kgm4x/btsplbjjWuZ/9ngIWoNaAIcypiPXg2MxAK/img.jpg",
       "location": "서울 용산구 청파로45길 12-1",
       "category": "분식",
@@ -57,6 +68,7 @@
     {
       "id": 7,
       "name": "비일",
+      "description": "분위기 좋은 숙대 양식 맛집",
       "picture": "https://ugc-images.catchtable.co.kr/rv/sD_kojSBFI7rmxUH-RGfpQg/6fc657f3e0d040548a2d6d26bc7b0496?small400",
       "location": "서울 용산구 청파로45길 36 지하",
       "category": "양식",
@@ -66,6 +78,7 @@
     {
       "id": 8,
       "name": "홍곱창",
+      "description": "숙대 1등 곱창 맛집!",
       "picture": "https://mblogthumb-phinf.pstatic.net/MjAyMjA0MjlfMTk2/MDAxNjUxMTg2OTM1OTkw.O9zchE-u_sjhYljWkQtoh47ocff6yDp-bMWaHi4xVzQg.OVGtgOUKsj6Ew4nBTbhikldU8xu25ryP6RUVQ9AUu_cg.JPEG.cheery_je/IMG_9657.jpg?type=w800",
       "location": "서울 용산구 청파로43가길 31 1층",
       "category": "한식",
@@ -75,6 +88,8 @@
     {
       "id": 9,
       "name": "보미해장국",
+      "description": "한끼 든든하게 먹고 싶을 때 보미해장국으로!",
+
       "picture": "https://mblogthumb-phinf.pstatic.net/MjAyNDEyMTVfMTMg/MDAxNzM0MjUwMDAxMTQ4.43kN2sB0gi78xIpQyT_BAe0alYe4pjKJiE3ZAUey6t4g.NBeK5K_hJawrPyBfz1zCXoNv3PwNzy8LVjtEuCBQfz8g.JPEG/IMG_6577.jpg?type=w800",
       "location": "서울 용산구 청파로47길 37-5",
       "category": "한식",
@@ -84,6 +99,7 @@
     {
       "id": 10,
       "name": "마시앤바시",
+      "description": "시금치 크림 파스타와 차이나 치킨 강추!",
       "picture": "https://mblogthumb-phinf.pstatic.net/MjAyNDA2MDVfMjg2/MDAxNzE3NTkxNTk5MzEy.-1RO3quKP9cBgksD5kJ0SaKePh0w9JomCZRhx1UMBHkg.cmvd392JlK1m-0Dx-OWu1aU7UmBeJghIt_jRr0Of7qAg.JPEG/C1C3A401-961B-4803-9426-B26DB221A3F2_1_105_c.jpeg?type=w800",
       "location": "서울 용산구 청파로47길 39 2층",
       "category": "양식",
@@ -93,6 +109,7 @@
     {
       "id": 11,
       "name": "포라임 숙대본점",
+      "description": "따뜻한 쌀국수 국물 맛이 최고인 포라임!",
       "picture": "https://d12zq4w4guyljn.cloudfront.net/750_750_20250107101115068_photo_f153ac5b786a.webp",
       "location": "서울 용산구 청파로47길 82",
       "category": "베트남 음식",
@@ -102,6 +119,7 @@
     {
       "id": 12,
       "name": "달볶이",
+      "description": "혼밥하기 좋은 떡볶이 맛집!",
       "picture": "https://img.siksinhot.com/place/1453703285815433.JPG",
       "location": "서울 용산구 청파로47길 88 1층",
       "category": "분식",
@@ -111,6 +129,7 @@
     {
       "id": 13,
       "name": "탕화쿵푸 숙대점",
+      "description": "스트레스 받을 때, 방문하면 좋은 마라탕 맛집!",
       "picture": "https://orale.co.kr/wp-content/uploads/2023/04/%EB%A7%88%EB%9D%BC%ED%83%95-%ED%83%95%ED%99%94%EC%BF%B5%ED%91%B820-1024x768.jpg",
       "location": "서울 용산구 청파로47길 78 2층",
       "category": "중식",
