@@ -20,11 +20,11 @@ const Name = styled.h2`
 `;
 const Img = styled.img`
   width: 60%;
-  margin: 0.9375rem 0rem;
+  margin: 0.625rem 0rem;
   border-radius: 3.125rem;
 `;
 const Text = styled.p`
-  margin: 0.3125rem;
+  margin: 0.4rem;
 `;
 
 const Link = styled.a``;
@@ -46,7 +46,7 @@ const RestaurantDetail = () => {
   return (
     <Container key={restaurant.id}>
       <Name>
-        " {restaurant.name} "의 정보가 <br></br>궁금하시군요 ?
+        " {restaurant.name} "의 정보가 <br></br>궁금하시군요?
       </Name>
       <Img src={restaurant.picture} />
       <Text>🧾 {restaurant.description}</Text>
