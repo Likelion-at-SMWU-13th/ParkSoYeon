@@ -20,10 +20,11 @@ const CategoryBox = styled.div`
 const Form = styled.form``;
 
 const Select = styled.select`
-  width: 8rem;
-  height: 2rem;
+  width: 7rem;
+  height: 2.3rem;
   text-align: center;
-  border-radius: 0.5rem;
+  border-width: 0.125rem;
+  border-radius: 2rem;
   font-size: 0.9375rem;
 `;
 
