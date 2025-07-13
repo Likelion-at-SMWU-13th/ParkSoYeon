@@ -36,13 +36,13 @@ const DetailPage = () => {
           <Button
             txt="수정"
             fontSize="1.875rem"
-            onBtnClick={() => navigate("/edit/${id}")}
+            onBtnClick={() => navigate(`/edit/${id}`)}
           />
           {/* 삭제 페이지 연결 */}
           <Button
             txt="삭제"
             fontSize="1.875rem"
-            onBtnClick={() => navigate("/delete/${id}")}
+            onBtnClick={() => navigate(`/delete/${id}`)}
           />
         </BtnWrapper>
       </DetailWrapper>
