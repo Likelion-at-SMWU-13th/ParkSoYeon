@@ -14,7 +14,7 @@ const Login = () => {
   return (
     <div>
       <h2>로그인</h2>
-      <div className="btns-container">
+      <div className="login-box">
         <button onClick={handleKakao}>
           {" "}
           <img src={KakaoImg} alt="kakao_button" />
