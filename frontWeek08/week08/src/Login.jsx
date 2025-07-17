@@ -2,9 +2,9 @@ import React from "react";
 import KakaoImg from "./assets/kakao_login.png";
 import GoogleImg from "./assets/google_login.png";
 
-/* Login.jsx는 Authorization Code(인가 코드)를 발급 받기 위한 과정을 담은 코드이다.
-Authorization Code 는 Access Token을 받기 위한 중간 과정이라고 이해하면 됨!
-  */
+// Login.jsx는 Authorization Code(인가 코드)를 발급 받기 위한 과정을 담은 코드이다.
+// Authorization Code 는 Access Token을 받기 위한 중간 과정이라고 이해하면 됨!
+
 const Login = () => {
   /*1. https://kauth.kakao.com/oauth/authorize : 인가 서버의 엔드포인트 URL 
     2. response_type=code : Authorization Code를 요청
