@@ -18,10 +18,9 @@ const Redirection = () => {
    */
   useEffect(() => {
     fetch(
-      `https://kauth.kakao.com/oauth/token?grant_type=${grant_type}
-      &client_id=${import.meta.env.VITE_REST_API_KEY}
-      &redirect_uri=${import.meta.env.VITE_REDIRECT_URI}
-      &code=${authCode}`,
+      `https://kauth.kakao.com/oauth/token?grant_type=${grant_type}&client_id=${
+        import.meta.env.VITE_REST_API_KEY
+      }&redirect_uri=${import.meta.env.VITE_REDIRECT_URI}&code=${authCode}`,
       {
         method: "POST",
 
@@ -32,7 +31,7 @@ const Redirection = () => {
     ).then((res) => {
       // 응답 제대로 오면, json으로 파싱
       const data = res.json();
-      // 받은 Access Code를 로컬 스토리지에 저장
+      // 받은 Access Code를 로컬 스토리지에 저장한 후, greeting 페이지로 이동
       data.then((data) => {
         localStorage.setItem("accessToken", data.access_token);
         navigate("/greeting");
