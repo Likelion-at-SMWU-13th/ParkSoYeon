@@ -1,6 +1,6 @@
-import React from "react";
+import React from "./App.css";
 
-function App(props) {
+function App() {
   return <></>;
 }
 
