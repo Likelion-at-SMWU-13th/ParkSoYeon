@@ -1,10 +1,12 @@
-import React from "./App.css";
+import "./App.css";
 import { Outlet } from "react-router-dom";
+import ToggleBtn from "./components/ToggleBtn";
 
 function App() {
   return (
     <>
       <Outlet />
+      <ToggleBtn />
     </>
   );
 }
