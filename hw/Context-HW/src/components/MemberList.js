@@ -1,8 +1,10 @@
 import React from "react";
 import { styled } from "styled-components";
 import member from "../sookmut";
+import { usePart } from "../contexts/PartContext";
 
-const MemberList = ({ part }) => {
+const MemberList = () => {
+  const { part } = usePart();
   const memberlist = part
     ? member.filter((member) => member.part === part)
     : member;
@@ -10,7 +12,7 @@ const MemberList = ({ part }) => {
   return (
     <List>
       {memberlist.map((mem) => (
-        <Item>
+        <Item key={mem.id}>
           <div className="name">🦁 {mem.name}</div>
           <div className={mem.role === "아기사자" ? "baby" : "adult"}>
             {mem.role}
