@@ -5,6 +5,5 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.img`
-  margin-top: 80px;
   height: 200px;
 `;

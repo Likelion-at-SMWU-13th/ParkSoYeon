@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-export const Main = styled.section`
-  margin-bottom: 70px;
-`;
+export const Main = styled.section``;
 
 export const Container = styled.div`
   width: 70%;
