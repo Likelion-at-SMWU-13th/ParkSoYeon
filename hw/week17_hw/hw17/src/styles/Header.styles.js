@@ -4,10 +4,7 @@ export const Container = styled.div`
   text-align: center;
 `;
 
-export const Title = styled.p`
-  font-size: 40px;
-`;
-
-export const Subtitle = styled.p`
-  font-size: 25px;
+export const Logo = styled.img`
+  margin-top: 80px;
+  height: 200px;
 `;

@@ -1,21 +1,21 @@
 import React from "react";
 import * as S from "../styles/MenuList.styles";
 
-function MenuList({ menus, onMenuSelect }) {
+function MenuList({ menus, onMenuClick }) {
   return (
-    <S.MenuGridSection>
-      <S.MenuGridContainer>
+    <S.Main>
+      <S.Container>
         {menus.map((menu) => (
-          <S.MenuItem key={menu.id}>
-            <S.ImageWrapper onClick={() => onMenuSelect(menu)}>
-              <S.MenuImage src={menu.src} alt={menu.name} />
-              <S.AddButton>+</S.AddButton>
-            </S.ImageWrapper>
+          <S.Item key={menu.id}>
+            <S.ImgContainer onClick={() => onMenuClick(menu)}>
+              <S.Img src={menu.src} alt={menu.name} />
+              <S.Button>+</S.Button>
+            </S.ImgContainer>
             <S.MenuName>{menu.name}</S.MenuName>
-          </S.MenuItem>
+          </S.Item>
         ))}
-      </S.MenuGridContainer>
-    </S.MenuGridSection>
+      </S.Container>
+    </S.Main>
   );
 }
 

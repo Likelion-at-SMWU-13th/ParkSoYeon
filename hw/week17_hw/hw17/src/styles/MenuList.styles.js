@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-export const MenuGridSection = styled.section`
-  margin: 70px 0;
+export const Main = styled.section`
+  margin-bottom: 70px;
 `;
 
-export const MenuGridContainer = styled.div`
+export const Container = styled.div`
   width: 70%;
   display: grid;
   margin: 0 auto;
@@ -12,11 +12,11 @@ export const MenuGridContainer = styled.div`
   gap: 30px 20px;
 `;
 
-export const MenuItem = styled.div`
+export const Item = styled.div`
   text-align: center;
 `;
 
-export const ImageWrapper = styled.div`
+export const ImgContainer = styled.div`
   position: relative;
   cursor: pointer;
   border-radius: 50%;
@@ -27,11 +27,11 @@ export const ImageWrapper = styled.div`
   }
 `;
 
-export const MenuImage = styled.img`
-  width: 80%;
+export const Img = styled.img`
+  width: 75%;
 `;
 
-export const AddButton = styled.button`
+export const Button = styled.button`
   position: absolute;
   top: 50%;
   left: 50%;
