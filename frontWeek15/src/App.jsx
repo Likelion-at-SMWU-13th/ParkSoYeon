@@ -3,9 +3,9 @@ import "./App.css";
 
 function App() {
   async function getPosts() {
-    const response = await fetch("https://jsonplaceholder.typicode.com/posts");
-    return await response.json();
-    // throw new Error("error test");
+    await fetch("https://jsonplaceholder.typicode.com/posts");
+    // return await response.json();
+    throw new Error("error test");
   }
   const {
     data: postsData,
