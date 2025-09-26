@@ -1,12 +1,12 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useQuery } from "@tanstack/react-query";
-import { createUser, updateUser, readUser } from "../axios";
+import { createUser, updateUser, readUser, deleteUser } from "../axios";
 
 // 회원가입 (POST)
 export const useCreateUser = () => {
   return useMutation({
     mutationFn: ({ username, password }) => {
-      createUser({ username, password });
+      return createUser({ username, password });
     },
     onSuccess: () => {
       alert("환영합니다.");
@@ -20,6 +20,7 @@ export const useReadUser = (userId) => {
     queryKey: ["users", userId],
     queryFn: () => readUser(userId),
     staleTime: 30 * 1000,
+    gcTime: 10 * 60 * 1000, // delete 요청 있더라도 10분 캐시에 유지시킴
     retry: 3,
   });
 };
@@ -28,8 +29,8 @@ export const useReadUser = (userId) => {
 export const useUpdateUser = () => {
   const queryClient = useQueryClient();
   return useMutation({
-    mutationFn: async ({ userId, username }) => {
-      updateUser(userId, { username });
+    mutationFn: async (userId, username) => {
+      return updateUser(userId, { username });
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["users"] });
@@ -37,4 +38,17 @@ export const useUpdateUser = () => {
   });
 };
 
-// 회원 정보 수정 (DELETE)
+// 회원 정보 삭제 (DELETE)
+export const useDeleteUser = () => {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationFn: async (userId) => {
+      return deleteUser(userId);
+    },
+    onSuccess: () => {
+      alert("회원 정보가 삭제 되었습니다.");
+      queryClient.invalidateQueries({ queryKey: ["users"] });
+    },
+  });
+};
