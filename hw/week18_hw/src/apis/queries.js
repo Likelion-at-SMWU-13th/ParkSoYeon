@@ -25,5 +25,16 @@ export const useReadUser = (userId) => {
 };
 
 // 개인정보 수정 (PUT)
+export const useUpdateUser = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: async ({ userId, username }) => {
+      updateUser(userId, { username });
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["users"] });
+    },
+  });
+};
 
 // 회원 정보 수정 (DELETE)
