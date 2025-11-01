@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import type { CommentItemType } from "../constants/comment";
+import type { CommentItemType } from "../types/comment";
 
 interface CommentProps {
   // 컴포넌트가 배열 형태의 댓글 목록을 props로 받는다는 것을 표현
